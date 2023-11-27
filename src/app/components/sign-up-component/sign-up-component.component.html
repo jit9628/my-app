@@ -1,0 +1,18 @@
+<div class="contain mt-5 p-5">
+    <form [formGroup]="searchForm" (ngSubmit)="submitForm()">
+        <div class="row ">
+            <div class="mb-3 col-lg-10 ms-auto">
+                <input type="text" class="form-control mt-5"  formControlName="firstname" placeholder="Enter Your FirstName">
+                <input type="text" class="form-control"  formControlName="lastname" placeholder="Enter Your LastName">
+                <input type="text" class="form-control"  formControlName="email" placeholder="Enter Your Email">
+                <input type="text" class="form-control"  formControlName="mobile" placeholder="Enter Your Mobile Number">
+                <input type="text" class="form-control"  formControlName="password" placeholder="Enter Your Password">
+
+                <button class="btn btn-md" >Submit</button>
+            </div>
+
+             
+        </div>
+
+    </form>
+   
